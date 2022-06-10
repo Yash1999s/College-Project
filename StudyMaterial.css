@@ -1,0 +1,41 @@
+.semester {
+    margin-top: 50px;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.sem123 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sem456 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sem {
+    background-color: #2d2d30;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: white;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    text-align: center;
+    font-family: 'Tiro Bangla', serif;
+    padding: 20px;
+    line-height: 75px;
+    font-size: 50px;
+}
+
+.sem:hover {
+    cursor: pointer;
+    background-color: #28282b;
+}

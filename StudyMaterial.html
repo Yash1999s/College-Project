@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="StudyMaterial.css">
+    <style>
+        .content-banner {
+            color: #ffffff;
+            background-image: url(./img/study.jpg);
+            min-height: 400px;
+            height: 100%;
+            position: relative;
+            background-position: center center;
+            background-size: cover;
+            padding-top: 125px;
+        }
+    </style>
+    <title>StudentOcean</title>
+</head>
+
+
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+            <div class="container-fluid px-lg-5">
+                <nav class="navbar navbar-expand-lg my-navbar">
+                    <p class="navbar-brand"><span class="logo">
+                            <img src="img/logo5.png" class="img-fluid"
+                                style="width:30px; margin:-3px 0px 0px 0px;">StudentOcean</span>
+                    </p>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"
+                                style="margin:5px 0px 0px 0px;"></i></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Homepage.html">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="StudyMaterial.html">Study Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Teacher</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Placement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                        </ul>
+                        <div class="div-inline my-2 my-lg-0">
+                            <button class="header-btn my-5 my-sm-0"
+                                onclick="window.location.href='Login.html'">Login</button>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="content-banner">
+
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="banner-con text-center">
+                        <p class="first-title">Student Ocean</p>
+                        <p class="banner-des">All semester notes,Last year question paper and project report,Teachers
+                            can upload
+                            notes according to Semester...</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="semester">
+        <div class="sem123">
+            <div class="sem" onclick="window.location.href='Semester/semester1.html'">BCA-1st Semester</div>
+            <div class="sem" onclick="window.location.href='Semester/semester2.html'">BCA-2nd Semester</div>
+            <div class="sem">BCA-3rd Semester</div>
+        </div>
+        <div class="sem456">
+            <div class="sem ">BCA-4th Semester</div>
+            <div class="sem ">BCA-5th Semester</div>
+            <div class="sem ">BCA-6th Semester</div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var navbar = $('.header-inner');
+            $(window).scroll(function () {
+                if ($(window).scrollTop() <= 40) {
+                    navbar.removeClass('navbar-scroll');
+                } else {
+                    navbar.addClass('navbar-scroll');
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            var navbar = $('.header-inner');
+            $(window).scroll(function () {
+                if ($(window).scrollTop() <= 40) {
+                    navbar.removeClass('navbar-scroll');
+                } else {
+                    navbar.addClass('navbar-scroll');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
